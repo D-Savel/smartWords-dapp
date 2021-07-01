@@ -18,7 +18,7 @@ function MyNftList(props) {
   useEffect(() => {
     if (smartWords) {
       const nftList = async () => {
-        let id, title, textHash
+        //let id, title, textHash
         /*
         let nft = []
         let myNft = []
@@ -26,9 +26,9 @@ function MyNftList(props) {
         try {
           setIsLoading(true)
           for (let index = 0; index < nftTokenBalance; index++) {
-            id = Number(await smartWords.tokenOfOwnerByIndex(web3State.account, index))
-            title = await smartWords.getTitleOf(id)
-            textHash = await smartWords.getTextHashOf(id)
+            // id = Number(await smartWords.tokenOfOwnerByIndex(web3State.account, index))
+            // title = await smartWords.getTitleOf(id)
+            // textHash = await smartWords.getTextHashOf(id)
           }
         } catch (e) {
           setError(true)
